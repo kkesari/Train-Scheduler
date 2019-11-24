@@ -1,0 +1,39 @@
+.container {
+    /* text-align: center; center the child */
+    font-family: "Book Antiqua";
+}
+.jumbotron{
+    background-image: url('../images/tennessee-valley-railroad-summerville-georgia-steam-engine-special-train-ride-desktop2.jpg');
+    background-size: 40% auto;
+    z-index: auto;
+}
+
+h1 { 
+    margin-left: 40%;
+    display: inline-flex; /* keep the background color wrapped tight */
+    background-color: cornsilk;
+    color: rgb(62, 157, 247);
+   
+}
+
+h2 { 
+    margin-left: 42%;
+    display: inline-flex; /* keep the background color wrapped tight */
+    background-color: cornsilk;    
+    color: rgb(62, 157, 247);
+}
+.card-header{
+    font-weight: bold;
+    background-color: lightblue;
+}
+#header-title{
+    font-weight: bold;
+}
+
+#addNewTrain{
+    font-weight:bold;
+}
+
+span.tab{
+    padding: 0 50px; /* Or desired space*/
+}
